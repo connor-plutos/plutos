@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="./assets/css/input-listing-style.css" />
+      <link rel="stylesheet" href="./assets/css/verify-images-style.css" />
+      <link rel="stylesheet" href="./assets/css/verify-info-style.css" />
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <title>Plutos</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" style="color: #ffffff; padding: 10px">
+               <img
+                  src="assets/images/plutoslogo_Plutos_W.png"
+                  alt=""
+                  width="183px"
+                  height="75px"
+               />
+            </a>
+         </div>
+      </nav>
+
+      <div class="container w-auto" id="inputListingEl">
+         <div class="card px-3">
+            <div class="card-body container">
+               <div class="row mb-3">
+                  <div class="container">
+                     <div class="row mb-3">
+                        <label class="form-label fw-bold">Email</label>
+                        <div class="input-group">
+                           <input
+                              type="email"
+                              class="form-control form-color"
+                              placeholder="example@email.com"
+                           />
+                        </div>
+                     </div>
+                     <div class="mb-3 row">
+                        <label class="form-label fw-bold">Listing URL</label>
+                        <div class="input-group">
+                           <input
+                              id="listingUrlInput"
+                              type="url"
+                              class="form-control form-color"
+                              placeholder="Paste Here"
+                           />
+                        </div>
+                     </div>
+                     <div class="mb-3 row">
+                        <label class="form-label fw-bold">
+                           Remodel Budget
+                        </label>
+                        <div class="input-group">
+                           <div
+                              class="input-group-text"
+                              style="background-color: #392b78; color: #ffffff"
+                           >
+                              $
+                           </div>
+                           <input class="form-control form-color" />
+                        </div>
+                     </div>
+                     <div class="row mb-3">
+                        <label class="form-label fw-bold">Photos</label>
+                        <div class="input-group">
+                           <input
+                              id="fileInput"
+                              type="file"
+                              name="file"
+                              accept=".zip"
+                           />
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-1">
+                           <input type="checkbox" class="form-check-input" />
+                        </div>
+                        <p class="col ps-0">Use only uploaded images</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row mt-5">
+                  <div class="input-group d-flex justify-content-center">
+                     <button
+                        class="btn btn-lg fw-bold"
+                        style="
+                           background-color: #392b78;
+                           color: #ffffff;
+                           border: #392b78 solid;
+                        "
+                        id="submitListingBtnEl"
+                     >
+                        Submit
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- sidebar intro -->
+      <div class="intro-side" id="sideBarLandingEl">
+         <div class="container">
+            <div class="row text-center mx-1">
+               <p class="display-1 fw-bold">Let's Get Started</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+               <img src="./assets/images/building_illustration.png" />
+            </div>
+         </div>
+      </div>
+      <script type="module" src="./scripts/script.js"></script>
+
+      <!-- bootstrap js -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>

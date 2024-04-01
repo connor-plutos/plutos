@@ -1,0 +1,196 @@
+{
+   "Verify Listing Info": {
+      "UNIT SPACE": {
+         "BD": "5 beds",
+         "BA": "4.5 baths",
+         "ROOMS": "10 rooms",
+         "SQ FT": "3,815 ft^2"
+      },
+      "OVERVIEW": {
+         "Address": "201 East 74th Street",
+         "Unit Number": "FLOOR28",
+         "FULL ADDRESS FOR GEOLOCATION": "New York, NY 10021",
+         "Floor Number": "28",
+         "City, State Zip": "New York, NY 10021",
+         "Latitude": "40.739",
+         "Longitude": "-73.7"
+      },
+      "MONTHLY COSTS": {
+         "ESTIMATED PAYMENT": "Coming soon",
+         "MONTHLY TAXES": "$6,624",
+         "COMMONS CHARGES": "$7,264"
+      },
+      "AMENITIES": [
+         "Bike Room",
+         "Childrens Playroom",
+         "Cold Storage",
+         "Community Recreation Facilities",
+         "Concierge",
+         "Gym",
+         "Laundry in Building",
+         "Live-in Super",
+         "Locker/Cage",
+         "Package Room",
+         "Storage Available",
+         "Wheelchair Access",
+         "Central Air",
+         "City View",
+         "Skyline View",
+         "Dishwasher",
+         "Elevator",
+         "Full-time Doorman",
+         "Pets Allowed",
+         "Washer / Dryer in Unit",
+         "Private Outdoor Space"
+      ],
+      "COSTS": {
+         "Price": "13,550,000",
+         "Price Per Sq Ft": "$3,551 per ft^2",
+         "Price Change": "N/A"
+      },
+      "LOCATION": {
+         "Borough": "Borough (coming soon)",
+         "School District": "District 02",
+         "Nearby Transport": [
+            "6--at 77th St--0.16 miles",
+            "Q--at 72nd Street--0.16 miles",
+            "6--at 68th St--0.34 miles",
+            "Q--at 86th Street--0.47 miles",
+            "F Q--at 63rd Street--0.56 miles"
+         ]
+      },
+      "THE BUILDING": {
+         "Total Units": "42",
+         "Number of Stories": "32",
+         "Year Built": "2023"
+      }
+   },
+   "Image Verification": [
+      {
+         "Room Classification": "Dining Room",
+         "Room Name": "Dining Room",
+         "Room Quality": 1.1557126641273499,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/794def1d171c241377b1e5c9ae9e43ff-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": "Dining Room",
+         "Room Name": "Dining Room 2",
+         "Room Quality": 2.921221137046814,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/5849cb17e593ab8589426e405ba2716a-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": "Closet",
+         "Room Name": "Closet",
+         "Room Quality": 1.0621235370635986,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/f6bd78c284bdae154951fa86f06a492d-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": "Bathroom",
+         "Room Name": "Bathroom",
+         "Room Quality": 1.9193302392959595,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/82684aab17ccf886834ad7e0c1aa18cc-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": "Bathroom",
+         "Room Name": "Bathroom 2",
+         "Room Quality": 1.0993843078613281,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/35de9b649fdd34184a3d6bbbe971090b-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room? ",
+         "Room Quality": 1.9571741819381714,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/42cf7599c0e5d87a30987eb67750f354-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  2",
+         "Room Quality": 1.8020880222320557,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/747678587701ca519e646e84c19f35cb-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  3",
+         "Room Quality": 1.9929791688919067,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/3d5039d06fe9a9953da26f2b0fee79ca-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  4",
+         "Room Quality": 1.8966864347457886,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/41ede7c8100c8f333e1ab6edcdb0f74e-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  5",
+         "Room Quality": 2.072129487991333,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/1857321c5e3e5c5353e6d61386779b52-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  6",
+         "Room Quality": 1.8952305316925049,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/c4f8fa6c117ace3d8a04b1f85b79f275-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  7",
+         "Room Quality": 2.517414927482605,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/378873b5cc40b4110c7cdbd731731f3d-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  8",
+         "Room Quality": 2.1172404289245605,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/83d6b92c2b5b0d9b0d8e215a0b282a23-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      },
+      {
+         "Room Classification": null,
+         "Room Name": "Room?  9",
+         "Room Quality": 2.757070302963257,
+         "Uploaded": false,
+         "URL": "https://photos.zillowstatic.com/fp/abd5a2d1642927918333ec619bef67b1-se_extra_large_1500_800.webp",
+         "Centroid Objects": [],
+         "Objects and Materials": []
+      }
+   ]
+}

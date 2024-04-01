@@ -1,0 +1,378 @@
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(186, 21, 21, 0.3);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+#verifyInfoContainer {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   background-image: linear-gradient(#9494c8 40%, #392b78);
+   height: 100%;
+   width: 100%;
+}
+
+.verify-info-title-col {
+}
+
+.verify-info-title-col .animate-in {
+   transform: translateX(100%);
+}
+
+.verify-info-title p {
+   font-size: 65pt;
+   font-weight: bold;
+   margin-bottom: 0px;
+}
+
+.verify-info-card-col {
+   max-height: 100vh;
+   overflow-y: auto;
+   overflow-x: hidden;
+   padding-top: 130px;
+   padding-left: 70px;
+}
+
+.verify-info-card-col::-webkit-scrollbar {
+   display: none;
+}
+
+.edit-col {
+   padding-top: 130px;
+}
+
+.overview-card .card {
+   background-color: #000000;
+   height: 100%;
+}
+
+.overview-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #ffffff;
+}
+
+.overview-card .details {
+   margin-left: 30px;
+}
+
+.overview-card .address-1 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 40pt;
+   color: #ffffff;
+   margin-bottom: 5px;
+}
+
+.overview-card .address-2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 17pt;
+   color: #ffffff;
+   margin-bottom: 5px;
+}
+
+.unitspace-card .card {
+   background-color: #392b78;
+   height: 100%;
+}
+
+.unitspace-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #ffffff;
+}
+
+.unitspace-card .details-value {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 55pt;
+   text-align: center;
+   color: #ffffff;
+   margin-bottom: 0;
+}
+
+.unitspace-card .details-label {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #dfdeff;
+   font-size: 25pt;
+   text-align: center;
+}
+
+.scrollable-row {
+   display: flex;
+   overflow-x: auto;
+}
+
+.materials-finishes-title p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 14pt;
+   color: #433082;
+}
+
+.materials-row {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 20px;
+}
+
+.materials-card .card {
+   height: 100%;
+   background-color: #ffffff;
+}
+
+.materials-card .title {
+   font-family: 'Roboto', 'sans-serif';
+   font-size: 17pt;
+   font-weight: bold;
+   color: #433082;
+   margin-bottom: 10px;
+}
+
+.materials-card .title span {
+   margin-left: 8px;
+   margin-right: 3px;
+   margin-bottom: 5px;
+}
+
+.materials-card .title span img {
+   height: 1.25em;
+   width: auto;
+}
+
+.materials-card .details {
+   font-family: 'Arial', 'sans-serif';
+   color: #433082;
+   font-size: 16pt;
+   margin-bottom: 0;
+   margin-left: 20px;
+}
+
+.materials-card .details p {
+   margin-bottom: 5px;
+}
+
+.monthlycost-card {
+   background-color: #392b78;
+}
+
+.monthlycost-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #ffffff;
+}
+
+.monthlycost-row-card-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.monthlycost-card .card {
+   background-color: #392b78;
+   outline: #dfdeff solid;
+   border-radius: 16pt;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   width: 34%;
+}
+
+.monthlycost-card .value {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 40pt;
+   text-align: center;
+   color: #ffffff;
+}
+
+.monthlycost-card .label {
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+   font-size: 14pt;
+   text-align: center;
+   color: #dfdeff;
+}
+
+.location-card {
+   background-color: #e2e2ff;
+}
+
+.location-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #433082;
+   font-size: 18pt;
+}
+
+.location-card .details {
+   font-family: Arial, sans-serif;
+   font-size: 20pt;
+   color: #000000;
+   margin-left: 30px;
+}
+
+.location-card span {
+   margin-right: 10px;
+}
+
+.location-card img {
+   height: 1.25em;
+   width: auto;
+}
+
+.building-card {
+   background-color: #e2e2ff;
+}
+
+.building-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #433082;
+}
+
+.building-card .details {
+   font-family: Arial, sans-serif;
+   font-size: 20pt;
+   color: #000000;
+   margin-left: 30px;
+}
+
+.building-card span {
+   margin-right: 10px;
+}
+
+.building-card img {
+   height: 1.25em;
+   width: auto;
+}
+
+.amenities-card {
+   background-color: #ffffff;
+   height: 60%;
+}
+
+.amenities-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #433082;
+}
+
+.amenities-card .details {
+   font-family: Arial, sans-serif;
+   font-size: 20pt;
+   color: #433082;
+   margin-left: 30px;
+}
+
+.amenities-card span {
+   margin-right: 10px;
+}
+
+.amenities-card img {
+   height: 1.25em;
+   width: auto;
+}
+
+.costs-card {
+   background-color: #dfdeff;
+   height: 40%;
+}
+
+.costs-card .title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 18pt;
+   color: #433082;
+}
+
+.costs-card .details {
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+   font-size: 20pt;
+   margin-left: 30px;
+}
+
+.costs-card span {
+   margin-right: 10px;
+}
+
+.costs-card img {
+   height: 1.25em;
+   width: auto;
+}
+
+.edit-btn {
+   width: 100px; /* Set according to your image size */
+   height: 100px; /* Set according to your image size */
+   cursor: pointer;
+   /* Add this to ensure the container doesn't exceed the specified dimensions */
+   display: inline-block; /* or 'block' depending on your layout */
+   overflow: hidden; /* Ensures nothing spills outside the container */
+}
+
+.edit-btn img {
+   display: block; /* Removes extra space below the image */
+   width: 100%; /* Makes the image scale to fit the width of the container */
+   height: 100%; /* Makes the image scale to fit the height of the container */
+   object-fit: cover; /* Adjusts the image's size to cover the container without losing its aspect ratio */
+}
+
+/* Slide in from the left */
+@keyframes slideInFromLeft {
+   0% {
+      transform: translateX(-100%);
+   }
+   100% {
+      transform: translateX(0);
+   }
+}
+
+.verify-info-title-col {
+   animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+/* Slide in from the bottom */
+@keyframes slideInFromBottom {
+   0% {
+      transform: translateY(100%);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+.verify-info-card-col {
+   animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+
+/* Slide in from the right */
+@keyframes slideInFromRight {
+   0% {
+      transform: translateX(100%);
+   }
+   100% {
+      transform: translateX(0);
+   }
+}
+
+.edit-col {
+   animation: 1s ease-out 0s 1 slideInFromRight;
+}

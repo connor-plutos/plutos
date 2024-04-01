@@ -1,0 +1,135 @@
+/* new styling below */
+
+a {
+   cursor: pointer;
+}
+
+.verify-image-container {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   height: 100vh;
+   width: 100%;
+}
+
+.verify-image-container-side {
+   background-color: #392b78;
+   color: #ffffff;
+   padding-left: 12px;
+   animation: slideInFromLeft 0.5s ease-out forwards;
+}
+
+.verify-image-side {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.verify-image-title p {
+   font-size: 65pt;
+   font-weight: bold;
+   margin-bottom: 0px;
+}
+
+/* card itself */
+
+.verify-image-card {
+   margin-top: 160px;
+   background-color: #ffffff;
+   margin-left: 300px;
+   margin-right: 300px;
+   animation: slideUpFromBottom 0.5s ease-out forwards;
+}
+
+.verify-image-card .card-body {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.verify-image-card-title p {
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+   font-size: 16pt;
+   color: #433082;
+   margin-bottom: 3px;
+}
+
+.verify-image-card-img {
+   height: auto;
+}
+
+.verify-image-card-img .card {
+   padding: 0;
+}
+
+.verify-image-card-img img {
+   height: 800px;
+   overflow: auto;
+   object-fit: cover;
+   border: #392b78 solid;
+   border-radius: 15pt;
+}
+
+.verify-image-card-user-input {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.verify-image-card-user-input p {
+   font-family: 'Arial', sans-serif;
+   font-size: 30pt;
+   color: #433082;
+}
+
+.verify-image-card-user-input input {
+   font-family: 'Arial', sans-serif;
+   font-size: 20pt;
+   color: #433082;
+   width: 100%;
+   box-sizing: border-box;
+   margin-right: 10px;
+}
+
+.verify-image-card-span {
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.verify-image-input-container {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.confirm-image.hide {
+   display: none;
+}
+
+.name-image.hide {
+   display: none;
+}
+
+.card-img-overlay.hide {
+   display: none;
+}
+
+/* Animation for side container */
+@keyframes slideInFromLeft {
+   0% {
+      transform: translateX(-100%);
+   }
+   100% {
+      transform: translateX(0);
+   }
+}
+
+/* Animation for image card */
+@keyframes slideUpFromBottom {
+   0% {
+      transform: translateY(100%);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}

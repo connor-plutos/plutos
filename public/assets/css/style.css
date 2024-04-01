@@ -1,0 +1,96 @@
+body {
+   background-color: #392b78;
+   font-family: 'Arial', sans-serif;
+   color: #433082;
+}
+
+nav {
+   background-color: #000000;
+   z-index: 1000;
+}
+
+.card {
+   border-radius: 15pt;
+}
+
+.back-btn-container {
+   margin-top: 120px;
+   height: 10%;
+}
+
+.back-btn-container button {
+   color: #ffffff;
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+   font-size: 16pt;
+}
+
+.back-btn-container img {
+   height: 1em;
+   width: auto;
+   padding-bottom: 2px;
+}
+
+.back-btn-container span {
+   margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(186, 21, 21, 0.3);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* loading animation */
+.icon-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Full height of the viewport */
+}
+
+/* Keyframes for initial grow and spin */
+@keyframes growSpin {
+   0% {
+      transform: scale(0) rotate(0deg);
+      opacity: 0;
+   }
+   100% {
+      transform: scale(1) rotate(-360deg);
+      opacity: 1;
+   }
+}
+
+/* Keyframes for continuous spinning */
+@keyframes continuousSpin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(-360deg);
+   }
+}
+
+.icon-container img {
+   /* Initial grow and spin */
+   animation: growSpin 2s ease-in forwards,
+      /* Complete and maintain final state */ continuousSpin 1.5s linear
+         infinite; /* Continue spinning indefinitely */
+   animation-delay: 0s, 2s; /* Start continuous spin right after growSpin ends */
+}
+
+#plutos-animation {
+   position: fixed; /* or absolute, depending on the need */
+   top: 50%; /* Adjust these values as necessary to position */
+   left: 50%; /* the element exactly where you want it */
+   transform: translate(-50%, -50%); /* Center the animation */
+   z-index: -1; /* Ensures it stays behind most elements */
+}

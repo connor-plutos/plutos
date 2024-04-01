@@ -1,0 +1,50 @@
+.form-control {
+   background-color: #e2e2ff;
+}
+
+.slide-left {
+   transform: translateX(-100%);
+}
+
+#inputListingEl {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   transition: transform 1s ease;
+}
+
+#inputListingEl.animate {
+   transform: translate(-50%, -255%);
+}
+
+#sideBarLandingEl {
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   width: 25%;
+   background-color: #e2e2ff;
+   transition: transform 1s ease;
+   color: #392b78;
+   font-weight: bold;
+   line-height: normal;
+}
+
+#sideBarLandingEl p {
+   font-family: 'Roboto', 'san-serif';
+   font-size: 65pt;
+   line-height: 72pt;
+}
+
+#sideBarLandingEl img {
+   width: 50%;
+}
+
+#sideBarLandingEl.animate {
+   transform: translateX(-100%);
+}
+
+#sideBarLandingEl .container {
+   margin-top: 57%;
+}
